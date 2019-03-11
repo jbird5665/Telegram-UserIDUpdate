@@ -14,7 +14,6 @@ ghdist:
 
 publish:
 	./node_modules/gulp/bin/gulp.js publish
-	echo -n "Please open http://localhost:8000/dist/index.html and check if everything works fine." && read -e
 	./node_modules/gulp/bin/gulp.js deploy
 
 bump:
